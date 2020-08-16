@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import App from './App.vue'
 import router from './router'
 
-import '@/assets/css/tailwind.css';
+import '@/assets/css/output.css';
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter)
