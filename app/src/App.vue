@@ -1,12 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <div class="bg-purple text-white sm:bg-green md:bg-blue md:text-yellow lg:bg-red xl:bg-orange ...">
+  Test
+</div>
+    <!-- <Nav class="mb-6" /> -->
+    <!-- <div id="nav">
+    <router-link to="/"  class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Home</router-link> |
+        <router-link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">About</router-link> -->
+    <!-- <router-view/> -->
+    <!-- </div> -->
   </div>
 </template>
+
+<script>
+// import Nav from './components/Nav.vue'
+
+  export default {
+    name: 'App',
+    components: {
+      // Nav
+    }
+  }
+  </script>
 
 <style>
 #app {
